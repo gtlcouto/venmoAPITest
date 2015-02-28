@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225A5A1A43936C9CE0562CA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64700AFDB860E4D73663FA90 /* libPods.a */; };
 		3561E3DC1AA132AA00ED13B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561E3DB1AA132AA00ED13B9 /* AppDelegate.swift */; };
 		3561E3DE1AA132AA00ED13B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561E3DD1AA132AA00ED13B9 /* ViewController.swift */; };
 		3561E3E11AA132AA00ED13B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3561E3DF1AA132AA00ED13B9 /* Main.storyboard */; };
 		3561E3E31AA132AA00ED13B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3561E3E21AA132AA00ED13B9 /* Images.xcassets */; };
 		3561E3E61AA132AA00ED13B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3561E3E41AA132AA00ED13B9 /* LaunchScreen.xib */; };
 		3561E3F21AA132AA00ED13B9 /* lendVenmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561E3F11AA132AA00ED13B9 /* lendVenmoTests.swift */; };
+		3561E3FC1AA132C300ED13B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3561E3FB1AA132C300ED13B9 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19C89BCF80C67A7B9310FB29 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3561E3D61AA132AA00ED13B9 /* lendVenmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lendVenmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3561E3DA1AA132AA00ED13B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3561E3DB1AA132AA00ED13B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,10 @@
 		3561E3EB1AA132AA00ED13B9 /* lendVenmoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lendVenmoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3561E3F01AA132AA00ED13B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3561E3F11AA132AA00ED13B9 /* lendVenmoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lendVenmoTests.swift; sourceTree = "<group>"; };
+		3561E3FB1AA132C300ED13B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3561E3FD1AA144F900ED13B9 /* lendVenmo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lendVenmo-Bridging-Header.h"; sourceTree = "<group>"; };
+		64700AFDB860E4D73663FA90 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9A6D0EBAA0B7DA32565086 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225A5A1A43936C9CE0562CA4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +67,12 @@
 		3561E3CD1AA132AA00ED13B9 = {
 			isa = PBXGroup;
 			children = (
+				3561E3FB1AA132C300ED13B9 /* Podfile */,
 				3561E3D81AA132AA00ED13B9 /* lendVenmo */,
 				3561E3EE1AA132AA00ED13B9 /* lendVenmoTests */,
 				3561E3D71AA132AA00ED13B9 /* Products */,
+				845573D26C6CC5127E1D22A4 /* Pods */,
+				F42EAFEA9D0296D64D2B6E90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +94,7 @@
 				3561E3E21AA132AA00ED13B9 /* Images.xcassets */,
 				3561E3E41AA132AA00ED13B9 /* LaunchScreen.xib */,
 				3561E3D91AA132AA00ED13B9 /* Supporting Files */,
+				3561E3FD1AA144F900ED13B9 /* lendVenmo-Bridging-Header.h */,
 			);
 			path = lendVenmo;
 			sourceTree = "<group>";
@@ -112,6 +124,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		845573D26C6CC5127E1D22A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19C89BCF80C67A7B9310FB29 /* Pods.debug.xcconfig */,
+				6F9A6D0EBAA0B7DA32565086 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F42EAFEA9D0296D64D2B6E90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64700AFDB860E4D73663FA90 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3561E3F51AA132AA00ED13B9 /* Build configuration list for PBXNativeTarget "lendVenmo" */;
 			buildPhases = (
+				586F9A326272536A1FCD72D2 /* Check Pods Manifest.lock */,
 				3561E3D21AA132AA00ED13B9 /* Sources */,
 				3561E3D31AA132AA00ED13B9 /* Frameworks */,
 				3561E3D41AA132AA00ED13B9 /* Resources */,
+				B088D71B9CA663C248E5F4EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +225,7 @@
 			files = (
 				3561E3E11AA132AA00ED13B9 /* Main.storyboard in Resources */,
 				3561E3E61AA132AA00ED13B9 /* LaunchScreen.xib in Resources */,
+				3561E3FC1AA132C300ED13B9 /* Podfile in Resources */,
 				3561E3E31AA132AA00ED13B9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +238,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		586F9A326272536A1FCD72D2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B088D71B9CA663C248E5F4EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3561E3D21AA132AA00ED13B9 /* Sources */ = {
@@ -334,21 +399,28 @@
 		};
 		3561E3F61AA132AA00ED13B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C89BCF80C67A7B9310FB29 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = lendVenmo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lendVenmo/lendVenmo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3561E3F71AA132AA00ED13B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9A6D0EBAA0B7DA32565086 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = lendVenmo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lendVenmo/lendVenmo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +477,7 @@
 				3561E3F71AA132AA00ED13B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3561E3F81AA132AA00ED13B9 /* Build configuration list for PBXNativeTarget "lendVenmoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +486,7 @@
 				3561E3FA1AA132AA00ED13B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
